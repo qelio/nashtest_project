@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_title">
+
+    <fragment
+        android:id="@+id/navigation_title"
+        android:name="com.svdprog.testmatica.fragments.TitleFragment"
+        android:label="Главная страница"
+        tools:layout="@layout/fragment_title" />
+    <fragment
+        android:id="@+id/navigation_thematic_tests"
+        android:name="com.svdprog.testmatica.fragments.ThematicTestsFragment"
+        android:label="Упражнения"
+        tools:layout="@layout/fragment_thematic_tests" />
+    <fragment
+        android:id="@+id/navigation_exam_tests"
+        android:name="com.svdprog.testmatica.fragments.ExamTestsFragment"
+        android:label="Экзамены"
+        tools:layout="@layout/fragment_exam_tests" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.svdprog.testmatica.fragments.ProfileFragment"
+        android:label="Мой профиль"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

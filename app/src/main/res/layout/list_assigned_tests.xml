@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rectangle_rounded_all"
+    android:padding="7dp"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="7dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/id_questions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Класс ученика: -" />
+
+        <TextView
+            android:id="@+id/level_xp"
+            android:layout_width="match_parent"
+            android:textColor="#30C936"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="Cтатус: выполнено" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_test"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="9pt"
+        android:textColor="@color/black"
+        android:text="Пожалуйста, подождите. Идёт загрузка..." />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginRight="7dp"
+        android:visibility="gone"
+        android:layout_marginLeft="7dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/percent"
+            android:layout_width="match_parent"
+            android:textColor="#EB4C42"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="Процент выполнения теста: --%" />
+        <TextView
+            android:id="@+id/mark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#EB4C42"
+            android:gravity="right"
+            android:layout_weight="2"
+            android:text="Оценка: -" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/replace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="Назначить заново" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Удалить" />
+    </LinearLayout>
+
+</LinearLayout>

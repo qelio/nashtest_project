@@ -1,0 +1,92 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/slava/AndroidStudioProjects/NashTestProject/app/src/main/res/drawable-anydpi/clip_icon.xml" value="0.203" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/NashTestProject/app/src/main/res/drawable-anydpi/edit_off.xml" value="0.203" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/NashTestProject/app/src/main/res/drawable/black_blue_registration.xml" value="0.203" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/NashTestProject/app/src/main/res/drawable/block_for_active.xml" value="0.203" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/NashTestProject/app/src/main/res/drawable/blue_registration.xml" value="0.203" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/NashTestProject/app/src/main/res/drawable/ic_app_background.xml" value="0.203" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/NashTestProject/app/src/main/res/drawable/registry_login.xml" value="0.204" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/NashTestProject/app/src/main/res/layout/activity_current_exercise.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/NashTestProject/app/src/main/res/layout/activity_junior_tests.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/NashTestProject/app/src/main/res/layout/activity_structure_active_test.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/NashTestProject/app/src/main/res/layout/activity_student_class.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/NashTestProject/app/src/main/res/layout/activity_teacher_class.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/NashTestProject/app/src/main/res/layout/activity_title_test.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/NashTestProject/app/src/main/res/layout/activity_user_registration.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/NashTestProject/app/src/main/res/layout/fragment_exam_tests.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/NashTestProject/app/src/main/res/layout/fragment_profile.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/NashTestProject/app/src/main/res/layout/loading.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable-anydpi/clip_icon.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable-anydpi/done.xml" value="0.3828125" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable-anydpi/exam_tests.xml" value="0.3828125" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable-anydpi/exit_class.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable-anydpi/exit_profile.xml" value="0.17533783783783785" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable-anydpi/nodone.xml" value="0.3828125" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable-anydpi/rectangle_rounded_all.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable-anydpi/rectangle_rounded_all2.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable-anydpi/universal_button.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable/block_for_active.xml" value="0.2" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable/block_for_contests.xml" value="0.25" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable/block_for_test_end.xml" value="0.3828125" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable/block_for_test_top.xml" value="0.3828125" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable/ic_app_background.xml" value="0.2483108108108108" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable/none_active_button.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable/rectangle_rounded_all_none.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable/registry.xml" value="0.2703125" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable/registry_login.xml" value="0.2703125" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable/spinner_progress.xml" value="0.3828125" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/drawable/table_tests.xml" value="0.3828125" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/active_test_for_teacher.xml" value="0.2" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_admin_pull_management.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_admin_users_management.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_all_contests.xml" value="0.25" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_composition_teacher_class.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_create_active_test.xml" value="0.22" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_current_exercise.xml" value="0.25" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_exam_tests.xml" value="0.2" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_exam_tests2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_finish_test.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_junior_tests.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_list_assigned_tests.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_olymp_tests.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_run_test.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_run_test10.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_senior_tests.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_set_active_test.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_settings.xml" value="0.264" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_structure_active_test.xml" value="0.176" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_student_class.xml" value="0.33" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_teacher_class.xml" value="0.25" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_thematic_tests.xml" value="0.25089974293059125" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/activity_title_test.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/composition_class.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/fragment_exam_tests.xml" value="0.24974411463664278" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/fragment_first.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/fragment_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/fragment_thematic_tests.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/fragment_title.xml" value="0.2" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/list_assigned_tests.xml" value="0.2" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/prepare_active_test.xml" value="0.16321070234113713" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/result_active_test.xml" value="0.33" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/result_test.xml" value="0.20572916666666666" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/row.xml" value="0.264" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/row_second.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/teacher_class.xml" value="0.2" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/layout/user_management.xml" value="0.23783783783783785" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/menu/bottom_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2" />
+        <entry key="..\:/Users/slava/AndroidStudioProjects/beta/app/src/main/res/mipmap-anydpi-v26/ic_app.xml" value="0.2483108108108108" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

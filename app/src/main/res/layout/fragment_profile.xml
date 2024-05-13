@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.ProfileFragment">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/login_registry"
+                android:layout_marginTop="120dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/registry_login"
+                android:padding="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Введите имя пользователя..." />
+
+            <EditText
+                android:id="@+id/password_registry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/registry_login"
+                android:padding="10dp"
+                android:ems="10"
+                android:hint="Введите пароль..."
+                android:inputType="textPassword" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/enter_registry"
+                    android:layout_marginRight="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Войти" />
+
+                <Button
+                    android:id="@+id/register_registry"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Регистрация" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/error_registry"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#EB4C42"
+                android:text="Ошибка входа! Вы ввели неверное имя пользователя или пароль..."
+                android:visibility="invisible"
+                />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/registry_image" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:orientation="vertical">
+        <ScrollView
+            android:id="@+id/myview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="Добро пожаловать!"
+                        android:textColor="@color/black"
+                        android:textSize="10pt"
+                        android:layout_weight="1"
+                        android:textStyle="bold" />
+
+                    <ImageButton
+                        android:id="@+id/profile_exit"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="5"
+                        android:tooltipText="Выход"
+                        android:src="@drawable/exit_profile" />
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#5971A0"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"/>
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/profile_init"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="10pt"
+                    android:layout_marginBottom="3dp"
+                    android:text="Идёт загрузка..." />
+
+                <TextView
+                    android:id="@+id/profile_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Пожалуйста, подождите..." />
+            </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/profile_imghref"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/loading" />
+                </LinearLayout>
+        </LinearLayout>
+                <TextView
+                    android:id="@+id/student_info"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#4160A0"
+                    android:textSize="8pt"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Теперь прохождение активных тестов и просмотр их результатов доступны в мобильном приложении:" />
+                <Button
+                    android:id="@+id/student_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Мои задания" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#5971A0"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal"/>
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Информация об аккаунте:" />
+        <TextView
+            android:id="@+id/profile_id"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"
+            android:textSize="8pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Персональный id: идёт получение..." />
+        <TextView
+            android:id="@+id/profile_pol"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"
+            android:textSize="8pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пол: идёт получение..." />
+        <TextView
+            android:id="@+id/profile_email"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"
+            android:textSize="8pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email: идёт получение..." />
+        <TextView
+            android:id="@+id/profile_city"
+            android:textColor="@color/black"
+            android:layout_margin="2dp"
+            android:textSize="8pt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Город: идёт получение..." />
+
+                <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rectangle_rounded_all"
+            android:padding="15dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/profile_levelxp"
+                android:textColor="@color/black"
+                android:textSize="8pt"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Текущий уровень: идёт получение..." />
+
+            <ProgressBar
+                android:id="@+id/profile_progress"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/profile_progress_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="20 XP" />
+
+                <TextView
+                    android:id="@+id/profile_progress_finish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:text="100 XP" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/adminlinear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#5971A0"
+                        android:orientation="horizontal" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:text="Ваша учетная запись обладает правами администратора, поэтому вам доступны следующие элементы управления базой данных приложения:"
+                        android:textColor="#4160A0"
+                        android:textSize="8pt" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/key1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="15dp"
+                            android:src="@drawable/key1" />
+
+                        <ImageButton
+                            android:id="@+id/key2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="15dp"
+                            android:src="@drawable/key2" />
+
+                        <ImageButton
+                            android:id="@+id/key3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:padding="15dp"
+                            android:src="@drawable/key3" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#5971A0"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal"/>
+        <TextView
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Табель успеваемости:" />
+
+                <TextView
+                    android:id="@+id/contest_loading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="visible"
+                    android:gravity="center"
+                    android:textColor="@color/title_nashtest"
+                    android:layout_margin="10dp"
+                    android:text="Идёт загрузка! Пожалуйста, подождите..." />
+
+
+                <LinearLayout
+                    android:id="@+id/contest_linear1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/block_for_contests"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/contest_title1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Скоро здесь будет название теста..."
+                        android:textColor="@color/black"
+                        android:textSize="8pt" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/contest_date1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Дата: 01.01.2022 22:56" />
+
+                        <TextView
+                            android:id="@+id/contest_result1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:textColor="#2AAF2E"
+                            android:text="Результат: 0/10" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/contest_linear2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:visibility="gone"
+                    android:background="@drawable/block_for_contests"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/contest_title2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Скоро здесь будет название теста..."
+                        android:textColor="@color/black"
+                        android:textSize="8pt" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/contest_date2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Дата: 01.01.2022 22:56" />
+
+                        <TextView
+                            android:id="@+id/contest_result2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:textColor="#2AAF2E"
+                            android:text="Результат: 0/10" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/contest_linear3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:visibility="gone"
+                    android:background="@drawable/block_for_contests"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/contest_title3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Скоро здесь будет название теста..."
+                        android:textColor="@color/black"
+                        android:textSize="8pt" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/contest_date3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Дата: 01.01.2022 22:56" />
+
+                        <TextView
+                            android:id="@+id/contest_result3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:textColor="#2AAF2E"
+                            android:text="Результат: 0/10" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/contest_linear4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:visibility="gone"
+                    android:background="@drawable/block_for_contests"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/contest_title4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Скоро здесь будет название теста..."
+                        android:textColor="@color/black"
+                        android:textSize="8pt" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/contest_date4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Дата: 01.01.2022 22:56" />
+
+                        <TextView
+                            android:id="@+id/contest_result4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:textColor="#2AAF2E"
+                            android:text="Результат: 0/10" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/contest_linear5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:visibility="gone"
+                    android:background="@drawable/block_for_contests"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/contest_title5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Скоро здесь будет название теста..."
+                        android:textColor="@color/black"
+                        android:textSize="8pt" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="3dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/contest_date5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Дата: 01.01.2022 22:56" />
+
+                        <TextView
+                            android:id="@+id/contest_result5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="right"
+                            android:textColor="#2AAF2E"
+                            android:text="Результат: 0/10" />
+                    </LinearLayout>
+                </LinearLayout>
+                <Button
+                    android:id="@+id/profile_all_contests"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:layout_marginBottom="20dp"
+                    android:text="Полный список тестов" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <ProgressBar
+            android:id="@+id/progress_linear3"
+            android:indeterminateDrawable="@drawable/spinner_progress"
+            android:indeterminateOnly="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

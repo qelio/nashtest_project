@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.svdprog.testmatica">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_white"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_app_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.НашТестРФbeta"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.svdprog.testmatica.user.UserRegistration"
+            android:exported="false" />
+        <activity
+            android:name="com.svdprog.testmatica.admin.AdminPullManagement"
+            android:exported="false" />
+        <activity
+            android:name="com.svdprog.testmatica.admin.AdminUsersManagement"
+            android:exported="false" />
+        <activity
+            android:name="com.svdprog.testmatica.contests.ListAssignedTests"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svdprog.testmatica.active.SetActiveTest"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svdprog.testmatica.active.StructureActiveTest"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svdprog.testmatica.active.CreateActiveTest"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svdprog.testmatica.teacher.CompositionTeacherClass"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svdprog.testmatica.teacher.TeacherClass"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svdprog.testmatica.student.StudentClass"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svdprog.testmatica.contests.AllContests"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svdprog.testmatica.contests.ExamTests"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svdprog.testmatica.contests.SeniorTests"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svdprog.testmatica.contests.JuniorTests"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svdprog.testmatica.contests.FinishTest"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svdprog.testmatica.contests.CurrentExercise"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svdprog.testmatica.contests.TitleTest"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.svdprog.testmatica.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

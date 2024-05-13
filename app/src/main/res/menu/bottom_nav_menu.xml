@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_title"
+        android:icon="@drawable/clip_icon"
+        android:title="Главная" />
+
+    <item
+        android:id="@+id/navigation_thematic_tests"
+        android:icon="@drawable/thematic_tests"
+        android:title="Упражнения" />
+
+    <item
+        android:id="@+id/navigation_exam_tests"
+        android:icon="@drawable/exam_tests"
+        android:title="Экзамены" />
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/my_profile"
+        android:title="Мой профиль" />
+</menu>
